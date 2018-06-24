@@ -1,0 +1,160 @@
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180, 198, 202, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");!important;
+}
+
+*, body, html {
+    font-family: Roboto, Geneva, sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+#center {
+	text-align: center;
+}
+
+table {
+	background-color: #1a1d24!important;
+}
+
+#inner {
+    margin: 0 auto;
+}
+
+a {
+    color: #688dad;
+    text-decoration: none;
+}
+
+.menu-v ul li {
+    position: relative;
+    padding-right: 5px;
+    background: transparent url(images/menu-line.png) no-repeat center top;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.mr-sm-2, .mx-sm-2 {
+    margin-right: .5rem!important;
+}
+
+.navbar-text {
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+body {
+	background: #252a34!important;
+}
+
+.navbar-brand {
+	border: none;
+}
+
+.container {
+    max-width: 800px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #d8e2e6;
+}
+
+a#info-link {
+	color: white;
+}
+
+
+@media (max-width: 768px) {
+	nav[data-toggle='toc'] {
+		display: none;
+	}
+	nav[data-toggle='toc'] .nav .active .nav {
+		display: none;
+	}
+}
+
+nav[data-toggle=toc] .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #eaeaea!important;
+}
+
+.nav-link .active {
+	background-color: #688dad!important;
+}
+
+.figure-caption {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+}
+
+#lipsum {
+    text-align: justify;
+}
+
+.list-group-item {
+	background-color: #bdbdbd!important;
+}
+
+h2, h3, h4 {
+	padding-top: 60px;
+	margin-top: -60px;
+}
+
+.footer {
+	background-color: soft-grey;
+	font-size: 75%;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255.75), rgba(0, 0, 0, 0));
+}
+
+.alert-default {
+    margin: 2em 0!important;
+    padding: 1em;
+    text-indent: initial;
+    background-color: #3f4956;
+    border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+	background-color: #252a34;
+}
+
+.material-scrolltop {
+	background-image: none!important;
+	box-shadow: 0 3px 10px rgba(0,0,0,.5)!important;
+	background: rgba(255,255,255,0.05)!important;
+}
