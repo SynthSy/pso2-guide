@@ -91,7 +91,7 @@
 					</nav>
 				</div>
 				<div class="col-sm-9">
-					<section>
+					<section id="blurb">
 						<div class="alert alert-info" role="alert">
 							This guide assumes that you have already registered a SEGA ID account. 
 							If you have not done so, see this guide 
@@ -117,7 +117,7 @@
 								<tbody>
 									<tr>
 										<td scope="row">1</td>
-										<td><a href="#torrent">Via Torrent</a></td>
+										<td>Via Torrent</td>
 										<td>
 											By installing a BitTorrent client and downloading the associated .torrent file in the BitTorrent client,
 											you can download the setup files that are used to install the game.
@@ -125,7 +125,7 @@
 									</tr>
 									<tr>
 										<td scope="row">2</td>
-										<td><a href="#tweaker">Via the Tweaker</a></td>
+										<td>Via the Tweaker</td>
 										<td>
 											By installing or downloading the PSO2 Tweaker, an 3rd party launcher that we've created, you can allow the
 											Tweaker to download the game for you.
@@ -155,12 +155,14 @@
 							the game.
 						</p>
 						<p>
-							To perform the Torrent download and installation, continue down and follow the guide below, otherwise
-							click <a href="#tweaker">here</a> to skip to the Tweaker download & installation section of the guide.
+							<a class="btn btn-primary" type="button" data-toggle="collapse" data-target="#torrentmethodhide" aria-expanded="false" aria-controls="torrentmethodhide">Click here for the Torrent method</a>
+							
+							<a class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tweakermethodhide" aria-expanded="false" aria-controls="tweakermethodhide">Click here for the Tweaker method</a>
 						</p>
 					</section>
-					<hr>
+				<div id="torrentmethodhide" class="collapse multi-collapse">	
 					<section>
+						<hr>
 						<h2 id="torrent" data-toc-skip>Torrent Method</h2>
 						<p>
 							First, if you haven't done so already, download the <a href="http://arks-layer.com/docs/PSO2E5JP_SETUPEN.torrent">torrent</a> for the setup installation files.
@@ -190,8 +192,8 @@
 							<figcaption class="figure-caption">Clicking on add will start the download process.</figcaption>
 						</figure>
 					</section>
-					<hr>
 					<section>
+						<hr>
 						<h3 id="tor-down" data-toc-skip>Downloading the game</h3>
 						<p>
 							Upon opening and adding the torrent in your client, it will then begin the download process. Do note, that the
@@ -203,8 +205,8 @@
 							<figcaption class="figure-caption">Going, going, going!</figcaption>
 						</figure>
 					</section>
-					<hr>
 					<section>
+					<hr>
 						<h3 id="tor-install" data-toc-skip>Installing the Game</h3>
 						<p>
 							Once the torrent has reached 100%, it will start to seed. This means it is done and now helping
@@ -260,15 +262,18 @@
 							Click <a href="#tweakersetupA">here</a> to skip to the Tweaker Setup section of this guide.
 						</div>
 					</section>
-					<hr>
+				</div>
+				<div id="tweakermethodhide" class="collapse multi-collapse">
 					<section>
+					<hr>
 						<h2 id="tweaker" data-toc-text="Tweaker Method" data-toc-skip>Downloading the game with the Tweaker</h2>
 							<p>
 								<h3 id="center" data-toc-skip>GUIDE COMING SOON!</h3>
 							</p>
 					</section>
-					<hr>
+				</div>
 					<section>
+						<hr>
 						<h2 id="tweakersetupA" data-toc-skip>Tweaker Setup</h2>
 						<p>
 							Now that you have downloaded and installed PSO2, this section of the guide
@@ -355,7 +360,10 @@
 						</figure>
 						<div class="alert alert-default" role="alert">
 							The speed of this check depends on how powerful your computer's CPU is. Generally latest generation hardware will breeze by it
-							faster, while older generation hardware will be slow. You cannot skip this check, and attempting to do so will cause your
+							faster, while older generation hardware will be slow. 
+						</div>
+						<div class="alert alert-danger" role="alert">
+							You cannot skip this check, and attempting to do so will cause your
 							game's integrity to be unstable, thus you may encounter odd behavior in-game.
 						</div>
 						<p>
@@ -368,7 +376,8 @@
 						</figure>
 						<p>
 							After you have successfully updated. The Tweaker will prompt you if you wish to install the English patch.
-							Click yes to install it.
+							Click yes to install it. If you click on no, but decide you want to install the English patch after all,
+							you can click on the Gear Menu and click on "Install English Patch",
 						</p>
 						<figure>
 							<img src="images/tweaker-english.jpg" class="img-resposive figure-img img-fluid" alt="Tweaker Opened">
