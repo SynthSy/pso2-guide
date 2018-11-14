@@ -1,0 +1,31 @@
+th {
+	text-align:	center;
+	overflow: hidden;
+	word-break: normal;
+}
+
+td#pet {
+	text-align: center;
+	width: 105px;
+}
+
+td.striking {
+	background-color: rgba(247,134,96,0.8);
+	text-align: center;
+	width: 55px;
+	color: black;
+}
+
+td.ranged {
+	background-color: rgba(111,197,255,0.8);
+	text-align: center;
+	width: 55px;
+	color: black;
+}
+
+td.technique {
+	background-color: rgba(255,253,164,0.8);
+	text-align: center;
+	width: 55px;
+	color: black;
+}
