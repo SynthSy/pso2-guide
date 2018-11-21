@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Tweaker Configuration</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-scrolltop/1.0.1/material-scrolltop.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body data-spy="scroll" data-target="#toc">
+		<nav class="navbar nav-pills nav-fill sticky-top navbar-expand-lg">
+			<a class="navbar-brand">PSO2 Setup Guide</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto menu-v">
+			  <li class="nav-item">
+				<a class="nav-link" target="_blank" href="https://arks-layer.com/">Arks-Layer</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" target="_blank" href="index.html">This Guide</a>
+			  </li>
+			</ul>
+			</div>
+		</nav>
+		<div class="container" id="inner">
+			<div class="row">
+				<div class="col-sm-3">
+					<nav id="toc" data-toggle="toc" class="position-fixed">
+						<ul class="nav navbar-nav">
+							<li>
+								<a class="nav-link" href="#tweakersetupA">Finalizing The Setup</a>
+							</li>
+							<ul class="nav navbar-nav">
+								<li>
+									<a class="nav-link" href="#plugins">Plugins & Features</a>
+									<ul class="nav navbar-nav">
+										<li>
+											<a class="nav-link" href="#configgfx">Graphics Settings</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav">
+								<li>
+									<a class="nav-link" href="#done-config">Wrapping Up</a>
+								</li>
+							</ul>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-9">
+					<h2 id="tweakersetupA" data-toc-skip>Finalizing The Setup</h2>
+					<div class="alert alert-warning" role="alert">
+						You will need to set exceptions for the game itself. PSO2 utilizes an anti-cheat software known as
+						GameGuard, which utilizes rootkit behavior to scan your running processes and files. You cannot disable or
+						limit GameGuard's access in any way or form, as PSO2 will close if it detects this.
+					</div>
+					</section>
+					<hr>
+					<section>
+						<h3 id="tweaker-setup2" data-toc-skip>Launching the Tweaker & Updating the game</h3>
+						<p>
+							Now, after setting exceptions in our antivirus software, 
+							we will need to check the integrity of the game files itself. While you may or may not
+							need to do this if you've downloaded using the Tweaker, it's a good habit to do so just
+							in case something went wrong during the download process.
+						</p>
+						<p>
+							To do this, click on the Gear button, then select <code>Troubleshooting</code> and then click on
+							<code>Check for Old/Missing Files</code>.
+						<figure>
+							<img src="images/check-for-old.jpg" class="img-resposive figure-img img-fluid" alt="check-for-old-missing-files">
+						</figure>
+						<div class="alert alert-default" role="alert">
+							The speed of this check depends on how powerful your computer's CPU is. Generally latest generation hardware will breeze by it
+							faster, while older generation hardware will be slow. 
+						</div>
+						<div class="alert alert-danger" role="alert">
+							You cannot skip this check, and attempting to do so will cause your
+							game's integrity to be unstable, thus you may encounter odd behavior in-game.
+						</div>
+						<p>
+							Once it has finished file checking, it will then move on to the updater. The Tweaker will now
+							download the files it needs to update your game. The speed of this is determined by your CPU speed.
+						</p>
+						<figure>
+							<img src="images/veda-update.jpg" class="img-resposive figure-img img-fluid" alt="Tweaker Opened">
+							<figcaption class="figure-caption">The VEDA System Updater, the Tweaker's updater and installer for PSO2.</figcaption>
+						</figure>
+						<p>
+							Once it has been completed, you may now play the game as is by clicking on "Start PSO2".
+							However, there are more features that the PSO2 Tweaker that you can enable and install. If you wish to configure
+							your graphics settings, click <a href="#configgfx">here</a> to jump to the Graphics Configuration section of this guide.
+						</p>
+					</section>
+					<hr>
+					<section>
+						<h3 id="plugins" data-toc-skip>Tweaker Plugins & Features</h3>
+						<p>
+							The PSO2 Tweaker offers extra add-on plugins that enhance the overall gaming experience for PSO2.
+							Things such as an Item Translator, or a built-in proxy for those who are affected by an IP block.
+						</p>
+						<p>
+							To access these plugins, click on the button labeled "Plugin Settings" on the tweaker.
+						</p>
+						<figure>
+							<img src="images/plugin-button.jpg" class="img-resposive figure-img img-fluid" alt="Tweaker Opened">
+							<figcaption class="figure-caption">Click this button!</figcaption>
+						</figure>
+						<p>
+							You will now be greeted by the Plugin Menu. A checked box means that the selected plugin has been enabled
+							and an unchecked box means the plugin is disabled.
+						</p>
+						<figure>
+							<img src="images/plugin-menu.jpg" class="img-resposive figure-img img-fluid" alt="Tweaker Opened">
+							<figcaption class="figure-caption">The PSO2 Tweaker's Plugin Menu.</figcaption>
+						</figure>
+						<p>
+							By default, the Block Translation, Item Translation, and Title Translations plugins are enabled. If you have installed
+							the English patch when prompted, the Text Translation plugin will also be enabled.
+						</p>
+						<p>
+							Here is an overview of each plugin:<br>
+							<table class="table table-bordered table-striped table-hover" width="100%">
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Plugin</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td scope="row">1</td>
+										<td>Block Translation</td>
+										<td>
+											Allows for the translation of the Block (lobby instance) names. SEGA has these handled server side,
+											so this translates them for you.
+										</td>
+									</tr>
+									<tr>
+										<td scope="row">2</td>
+										<td>Item Translation</td>
+										<td>
+											This plugin allows for the translation of the various in-game items you may encounter and use.
+											The English patch only handles the in-game text, but the items aren't handled by the patch.
+										</td>
+									</tr>
+									<tr>
+										<td scope="row">3</td>
+										<td>Telepipe Proxy</td>
+										<td>
+											This allows for users who are blocked by an IP Block, or other type of network interference (such as
+											a country wide firewall or internet restriction). If no PSO2 Proxy URL is not configured, you will be
+											routed to the Telepipe Proxy instead. More info on the Telepipe Proxy <a href="http://telepipe.io/" target="_blank">here</a>.
+										</td>
+									</tr>
+									<tr>
+										<td scope="row">4</td>
+										<td>Text Translation</td>
+										<td>
+											Dubbed the "Raiser" plugin by Arks-Layer, this plugin allows the fan translation patch to function.
+											Disabling this plugin will make the game be in its default language of Japanese.
+										</td>
+									</tr>
+									<tr>
+										<td scope="row">5</td>
+										<td>Title Translation</td>
+										<td>
+											Enables the use of translations for the various in-game overhead titles (achievements) you may randomly
+											acquire through various tasks.
+										</td>
+									</tr>
+									<tr>
+										<td scope="row">6</td>
+										<td>Reshade/SweetFX</td>
+										<td>
+											A graphic shader enhancement program. Not bundled with the Tweaker by default, however can be downloaded
+											by clicking on the "Reshade/SweetFX plugin" button on the Tweaker's Plugin Menu.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</p>
+						<p>
+							After selecting which plugins you wish to be enabled, click on the "Save" button
+							to save your settings and close the menu. Clicking on the Plugin Check button
+							will check for updates on all plugins.
+						</p>
+					</section>
+					<hr>
+					<section>
+						<h4 id="configgfx" data-toc-skip>Graphics Configuration</h4>
+						<p>
+							To configure the graphic settings for PSO2, click on the button labelled
+							"PSO2 Settings".
+						</p>
+						<figure>
+							<img src="images/tweaker-pso2-settings.jpg" class="img-resposive figure-img img-fluid" alt="Tweaker Opened">
+							<figcaption class="figure-caption">The Graphics Settings menu.</figcaption>
+						</figure>
+						<p>
+							Unlike other games, PSO2 has different preset graphics options that enable and disable certain settings.
+							These settings do not allow you to customize them completely, except for the post-processing settings
+							that you can enable from within the game itself.
+						</p>
+						<p>
+							Below are the following overview of the different settings that can be
+							configured in the PSO2 Settings menu:
+						</p>	
+						<dl class="row">
+							<dt class="col-sm-3">
+								Video Settings
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dt>
+										Play videos on lobby screens
+									</dt>
+									<dd>
+										Displays whether the in-game video ads in the lobbies play video or not.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										Disable DirectX 9EX features
+									</dt>
+									<dd>
+										Uncheck to disable advanced DirectX 9 features.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										Enable Coffee Brewing
+									</dt>
+									<dd>
+										<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">See here for demonstration</a>.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Game Resolution
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dt>
+										Window Mode
+									</dt>
+									<dd>
+										Select whether you want Fullscreen, Virtual Fullscreen (Borderless Window), or Windowed mode.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										Game Resolution
+									</dt>
+									<dd>
+										Select your preferred game resolution. Virtual Fullscreen ignores this and goes for the maximum
+										supported resolution based on the primary screen set configured by Windows.
+									</dd>
+								</dl>
+							</dd>
+						</dl>	
+						<dl class="row">
+							<dt class="col-sm-3">
+								Max Framerate
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dd>
+										Set your preferred max framerate as supported by your screen. You can even choose unlimited
+										which functions the same as vsync disabled.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Text Size
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dd>
+										This changes the scaling of the UI in-game. It's recommended that you don't touch this
+										unless you have a smaller screen resolution lower than 1280x720.
+										The higher the UI resolution, the smaller the UI will be. A custom setting can be selected
+										if you manually edited the configuration file. (user.pso2)
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Simple Render Setting
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dd>
+										PSO2 uses different setting presets to display different graphic configurations. To play on low settings,
+										with everything disabled, slide the slider down to 1. Maximum settings can be set by sliding the setting
+										to 6, while medium settings can be achieved by selecting setting 3.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Shader Quality
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dd>
+										Setting enables the quality of your shaders. Simple shaders disables all post processing effects, Standard is
+										the default setting, while High Resolution displays all post processing effects. Standard and High Quality shaders
+										also allow for them to be toggled on/off in-game. Simple disables this ability.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Texture Resolution
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dd>
+										Selecting your texture quality determines how your in-game textures look.
+										Compressed is good for very low end machines, Standard is the default, and
+										High Resolution allows for a very near HD feel.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt class="col-sm-3">
+								Audio Settings
+							</dt>
+							<dd class="col-sm-5">
+								<dl class="row">
+									<dt>
+										BGM Volume
+									</dt>
+									<dd>
+										This slider lets you set the desired volume of the in-game music and concerts.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										SE Volume
+									</dt>
+									<dd>
+										This slider lets you set the desired volume of the general sound effects.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										Voice Volume
+									</dt>
+									<dd>
+										This slider lets you set the desired volume of the voices your character and other
+										characters in-game.
+									</dd>
+								</dl>
+								<dl class="row">
+									<dt>
+										Movie Volume
+									</dt>
+									<dd>
+										This slider lets you set the desired volume of the video ads in-game.
+									</dd>
+								</dl>
+							</dd>
+						</dl>
+						<p>
+							Once you have configured your desired settings, click on "Save Changes" to exit this menu.
+						</p>
+					</section>
+					<h2 id="done-config" data-toc-skip>Wrapping Up</h2>
+					<p>
+					Congratulations, you have successfully installed PSO2 and you are now ready to play the game.
+					Check out our (Arks-Layer) Discord server located <a href="https://discord.gg/pso2" target="_blank">here</a>.
+					If this guide helped you, be sure to tell us!
+					</p>
+					<p>
+					If you encounter any issues, be sure to visit the Arks-Layer Discord Server located here: 
+					<a href="https://discord.gg/pso2" target="_blank">https://discord.gg/pso2</a> and join the channel <code class="highlighter-rouge">#game-technical</code> 
+					if you're having issues relating to GameGuard or weird in-game issues, or <code class="highlighter-rouge">#tweaker-errors</code> if you're having issues
+					with the PSO2 Tweaker itself. Be patient however, everyone there is a volunteer and not paid or sponsored by SEGA
+					in any way, shape or form.
+					</p>
+					<p>
+					If you encounter an issue (untranslated item/dialog box, possible weird translation) with the translation, also join the Discord and
+					report said issue to the <code class="highlighter-rouge">#translation-reporting</code> channel.
+					</p>	
+				</div>
+			</div>
+		</div>
+		<button class="material-scrolltop" type="button">
+			<span>↑</span>
+		</button>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<span class="text-muted">
+							<span style="text-align:center;display:block;"><a target="_blank" href="http://pso2.jp/">Phantasy Star Online 2 © SEGA</a><br>
+							Site & Translations © 2018 Arks-Layer<br>
+							All software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties
+							of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be
+							liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from,
+							out of or in connection with the software or the use or other dealings in the software.<br>
+							Please do not make nuclear weapons with our programs. Thanks!<br>Guide and site layout created by SynthSy.</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/material-scrolltop/1.0.1/material-scrolltop.min.js"></script>
+		<script>
+			$('body').materialScrollTop();
+		</script>
+	</body>
+</html>

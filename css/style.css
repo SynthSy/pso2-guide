@@ -158,3 +158,20 @@ hr {
 	box-shadow: 0 3px 10px rgba(0,0,0,.5)!important;
 	background: rgba(255,255,255,0.05)!important;
 }
+
+
+.breadcrumb {
+    background-color: transparent;
+    background-image: none;
+	border: 0;
+}
+
+p>code, a>code, li>code, figcaption>code, td>code {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: .75em;
+    background: #272c36;
+    border: 1px solid #585d66;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+}
