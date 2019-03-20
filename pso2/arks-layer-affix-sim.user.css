@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.0.3
+@version     1.0.4
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
@@ -268,5 +268,8 @@
     .x-boundlist-selected {
 	    background: #6e757b;
 	    border-color: #3A3F44;
+    }
+    .x-boundlist-item {
+	border-style:none;
     }
 }
