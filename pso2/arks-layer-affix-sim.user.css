@@ -259,12 +259,14 @@
         filter: none;
         cursor:pointer;
     }
-    .x-boundlist,.x-boundlist-item-over {
-        background: #7A8288;
+   .x-boundlist,.x-boundlist-item-over {
+        background: #222;
         border-color: #3A3F44;
+        border: 1px solid transparent;
+        color:white
     }
     .x-boundlist-selected {
 	    background: #6e757b;
-	    border-color: #8eabe4;
+	    border-color: #3A3F44;
     }
 }
