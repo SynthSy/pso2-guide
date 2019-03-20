@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.0.6
+@version     1.0.7
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
@@ -131,7 +131,6 @@
         background-color: white;
     }
 
-
     div.x-column-header-inner{
         background-color:#222;
     }
@@ -206,8 +205,6 @@
         border-color: #3A3F44;
         background-color: #28415b !important
     }
-
-
 
     .x-grid-group-hd, .x-grid-group-hd .x-grid-cell-inner,.x-border-layout-ct {
         background-color: #222;
@@ -292,5 +289,7 @@
     .x-surface {
         background-color: #222!important;
     }
-
+    table#ps td#high {
+	color: #00bbff;
+    }
 }
