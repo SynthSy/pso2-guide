@@ -259,4 +259,8 @@
         filter: none;
         cursor:pointer;
     }
+    x-boundlist,.x-boundlist-item-over {
+	    background: #7A8288;
+	    border-color: #3A3F44;
+	}
 }
