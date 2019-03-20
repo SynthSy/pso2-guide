@@ -260,7 +260,11 @@
         cursor:pointer;
     }
     x-boundlist,.x-boundlist-item-over {
-	    background: #7A8288;
-	    border-color: #3A3F44;
-	}
+        background: #7A8288;
+        border-color: #3A3F44;
+    }
+    .x-boundlist-selected {
+	    background: #6e757b;
+	    border-color: #8eabe4;
+    }
 }
