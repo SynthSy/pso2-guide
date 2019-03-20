@@ -1,0 +1,261 @@
+@-moz-document url-prefix("https://arks-layer.com/abilitysim/") {
+/* ==UserStyle==
+@name        Arks-Layer Ability Sim Dark
+@namespace   Arks-Layer
+@version     1.0.2
+@license     CC-BY-SA-4.0
+@author      SynthSy
+@homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
+==/UserStyle== */
+
+::-webkit-scrollbar-button {
+        background-color: #666;
+    }
+    ::-webkit-scrollbar-corner {
+        background-color: #646464;
+    }
+    ::-webkit-scrollbar-thumb {
+        height: 50px;
+        background-color: #666;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #646464;
+    }
+    ::-webkit-scrollbar-track-piece {
+        background-color: #323740;
+    }
+
+    .x-panel-header-default {
+        font-size: 11px;
+        line-height: 15px;
+        border-color: #3A3F44;
+        border-width: 1px;
+        border-style: solid;
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        -moz-box-shadow: #222 0 1px 0px 0 inset;
+        -webkit-box-shadow: #222 0 1px 0px 0 inset;
+        -o-box-shadow: #222 0 1px 0px 0 inset;
+        box-shadow: #222 0 1px 0px 0 inset;
+    }
+    .x-toolbar-default,
+    .x-window-default,
+    .x-window-body-default,
+    .x-docked-top{
+        border-color: #3A3F44;
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+    .x-btn-default-toolbar-small .x-btn-inner,.x-form-item-label,
+    .x-component-default, .x-component,
+    .x-window-header-text-default {
+        color: white;
+    }
+    .x-btn-default-small-over,
+    .x-btn-default-small-focus,
+    .x-btn-default-small-menu-active,
+    .x-btn-default-small-pressed{
+        background-color: #3A3F44;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+
+    .x-btn-default-small, .x-btn {
+       border-color: #3A3F44;
+       background-color: #3A3F44!important;
+       color:white;
+       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+
+    .x-grid-header-ct {
+        border: 1px solid #18181a;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        background-color: #243b53;
+    }
+    .x-btn-default-small .x-btn-inner {
+        color:white;
+    }
+    .x-tab-top-active {
+        border: 1px solid #18181a;
+        background-color: #2e3236;
+        border-color: #3A3F44;
+        color:white;
+    }
+
+    .x-panel-header-text-default,.x-tab-active button {
+        color: white;
+    }
+
+    .x-panel .x-grid-body {
+        background: white;
+        border-color: #3A3F44;
+        border-style: solid;
+        border-width: 1px;
+        border-top-color: #c5c5c5;
+    }
+    .x-box-item, .x-box-inner, #gridcolumn-1019-titleContainer, #gridcolumn-1020-titleContainer, .x-column-header-inner .x-column-header-over {
+        background-color:#222;
+        border-color: #3A3F44;
+    }
+
+    .x-column-header-inner .x-column-header-text {
+        color:white;
+    }
+
+    .x-column-header-trigger {
+        background: no-repeat left center;
+        background-color: #222;
+        background-image: url(data:image/gif;base64,R0lGODlhHAAyAIcAABU7hCJFh8Pa+cXf/8fg/8vi/8rm/83j/8zn/…lB+qjjjj1KOGSIPCY5wJItNpkklCdK2SOVGBap5I8xaqnikTJa+SKXNopJI5lEmokjmAEBADs=);
+    }
+
+    .x-grid-row-alt .x-grid-cell,
+    .x-grid-row-alt .x-grid-rowwrap-div {
+        background-color: white;
+    }
+
+
+    div.x-column-header-inner{
+        background-color:#222;
+    }
+
+    div.x-column-header-over{
+        background-color:#222;
+    }
+    .x-column-header-over,
+    .x-column-header-sort-ASC,
+    .x-column-header-sort-DESC {
+        border-left-color: #aaccf6;
+        border-right-color: #aaccf6;
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+    .x-menu-item-text {
+        color:white;
+    }
+
+    .x-menu-item-active .x-menu-item-link {
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        border: 1px solid #222;
+    }
+    .x-form-text, textarea.x-form-field {
+        color: white;
+        background-color: #1c1e22;
+        background-image:none;
+        border-color: #3A3F44;
+    }
+
+
+    .x-column-header .x-unselectable .x-box-item .x-column-header .x-unselectable-default .x-column-header-align-left .x-column-header-first {
+        background-color:#222;
+    }
+
+
+    .x-panel-body-default {
+        background: transparent!important;
+        background-color: #222 !important;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        border-color: #3A3F44;
+        color: white!important;
+        box-shadow: #414b5c 0 1px 0px 0 inset, #414b5c 0 -1px 0px 0 inset, #414b5c -1px 0 0px 0 inset, #414b5c 1px 0 0px 0 inset;
+
+    }
+
+    .x-grid-row-over .x-grid-cell,
+    .x-grid-row-over .x-grid-rowwrap-div {
+        border-color: #3A3F44;
+        background-color: #7e552f
+    }
+
+    .x-fieldset-header .x-fieldset-header-text {
+        color: white;
+        float: left;
+    }
+
+    .x-resultpanel-body-default-framed {
+        border-color: #3A3F44;
+    }
+
+    .x-panel-body-default-framed {
+        background: #222 !important;
+        border-color: #3A3F44;
+        color: white;
+    }
+
+    .x-grid-row-selected .x-grid-cell,
+    .x-grid-row-selected .x-grid-rowwrap-div {
+        border-style: dotted;
+        border-color: #3A3F44;
+        background-color: #28415b !important
+    }
+
+
+
+    .x-grid-group-hd, .x-grid-group-hd .x-grid-cell-inner,.x-border-layout-ct {
+        background-color: #222;
+        border-color: #3A3F44;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+
+    .x-grid-row .x-grid-cell {
+        color: white;
+        background-color: #222;
+        border-color: #3A3F44;
+        border-top-color: #1d1d1d;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+    }
+
+    .x-grid-group-title {
+        color: white;
+    }
+
+    .x-tab button,.x-tab-default-top {
+        background: none;
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        color: white;
+    }
+    .x-tab-bar-body,.x-panel-default{
+        border-color: #3A3F44;
+    }
+    
+	table#ps td#psh,table#ps td#ps,table#ps td{
+        background: none;
+        background-color: #222;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        color: white;
+        border:solid 1px #3A3F44;
+    }
+
+    .x-tab-bar-strip-default, .x-tab-bar-strip-default-plain,.x-panel-default-framed {
+        border-color: #3A3F44;
+        background-color: #222;
+    }
+    a#long_link,a#short_link {
+     color:white;   
+    }
+    button {
+        display: inline-block;
+        color: #aaa;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.75rem 1rem;
+        border-radius: 0.25rem;
+        -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3A3F44), to(#313539));
+        background-image: linear-gradient(#484e55, #3A3F44 60%, #313539);
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+        cursor:pointer;
+    }
+}
